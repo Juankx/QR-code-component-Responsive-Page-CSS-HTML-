@@ -1,0 +1,75 @@
+/*Aqui vamos a poner los estilos visuales*/
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('https://fonts.google.com/specimen/Outfit') format('woff2');
+}
+
+body {
+    background-color: #7D889E;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Outfit';
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Outfit';
+    font-weight: 200;
+    color: #7D889E;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 16px;
+    width: 320px;
+    height: 497px;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-code {
+    background-color: #2C7DFA;
+    border-radius: 16px;
+    width: 288px;
+    height: 288px;
+    margin-bottom: auto;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  
+    .container {
+      width: 90%;
+      max-width: unset;
+    }
+  
+    .qr-code {
+      width: 256px;
+      height: 256px;
+    }
+  }
